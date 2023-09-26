@@ -1,4 +1,5 @@
 import DEUS from "../assets/images/DEUS.png";
+import menu from "../assets/icons/hamburger.svg";
 import { navlink } from "../constants";
 
 const Navbar = () => {
@@ -9,8 +10,8 @@ const Navbar = () => {
           <img
             src={DEUS}
             alt="DEUSGC"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             className="m-0 w-[150px] h-[150px]"
           />
         </a>
@@ -26,6 +27,14 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
+          <a href="/">Login</a>
+          <span>/</span>
+          <a href="/">Sign up</a>
+        </div>
+        <div className="hidden max-lg:block">
+          <img src={menu} alt="menu" width={25} height={25} />
+        </div>
       </nav>
     </header>
   );
