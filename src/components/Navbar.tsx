@@ -10,7 +10,6 @@ const Navbar = () => {
           <img
             src={DEUS}
             width={150}
-            height={150}
             alt="DEUSGC"
             className="m-0 w-[150px] h-[150px]"
           />
