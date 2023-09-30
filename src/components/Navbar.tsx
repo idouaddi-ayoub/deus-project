@@ -1,17 +1,17 @@
-import DEUS from "../assets/images/DEUS.png";
+import DEUS from "../assets/images/DEUS 1600x1600.png";
 import menu from "../assets/icons/hamburger.svg";
 import { navlink } from "../constants";
 
 const Navbar = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-container">
+    <header className="padding-x py-4 pb-8 absolute z-10 w-full mb-8">
+      <nav className="flex justify-between items-center max-container z-10">
         <a href="/">
           <img
             src={DEUS}
+            width={150}
+            height={150}
             alt="DEUSGC"
-            width={100}
-            height={100}
             className="m-0 w-[150px] h-[150px]"
           />
         </a>
