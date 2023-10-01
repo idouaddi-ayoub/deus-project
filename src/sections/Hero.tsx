@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
-import { DEUS } from "../assets/images";
+import { jinx } from "../assets/images";
 const Hero = () => {
   return (
     <section
@@ -27,12 +27,7 @@ const Hero = () => {
       </div>
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
-        <img
-          src={DEUS}
-          alt="Chi7aja"
-          width={300}
-          className="object-contain relative"
-        />
+        <img src={jinx} alt="Chi7aja" className="object-contain relative" />
       </div>
     </section>
   );
