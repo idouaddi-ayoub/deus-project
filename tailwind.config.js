@@ -24,12 +24,14 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
+        "gray-5": "#0D0D0D",
+        "red-300": "#F23005",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
-        hero: "url('assets/images/collection-background.svg')",
+        hero: "url('assets/images/AssassinCreed.png)",
         card: "url('assets/images/thumbnail-background.svg')",
       },
       screens: {

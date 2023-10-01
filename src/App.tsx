@@ -11,7 +11,7 @@ import {
 const App = () => (
   <main className="relative">
     <Navbar />
-    <section className="xl:padding-1 wide:padding-r padding-b">
+    <section>
       <Hero />
     </section>
     <section className="padding">
