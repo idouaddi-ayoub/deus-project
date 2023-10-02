@@ -1,6 +1,4 @@
-import { arrowRight } from "../assets/icons";
 import { DEUS } from "../assets/images";
-import Button from "../components/Button";
 
 const SpecialOffer = () => {
   return (
@@ -23,16 +21,7 @@ const SpecialOffer = () => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop now" iconUrl={arrowRight} />
-          <Button
-            label="Learn more"
-            iconUrl={arrowRight}
-            backgroundColor="bg-white"
-            borderColor="border-slate-gray"
-            textColor="text-slate-gray"
-          />
-        </div>
+        <div className="mt-11 flex flex-wrap gap-4"></div>
       </div>
     </section>
   );

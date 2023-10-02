@@ -1,5 +1,3 @@
-import Button from "../components/Button";
-import { arrowRight } from "../assets/icons";
 import { AssassinCreedDark } from "../assets/images";
 
 const Hero = () => {
@@ -25,7 +23,12 @@ const Hero = () => {
           Welcome to Deus Gaming Center Association based in Agadir, your haven
           for gathering gaming enthusiasts !
         </p>
-        <Button label="Totam rem" iconUrl={arrowRight} />
+        <button
+          type="button"
+          className="text-gray-900 hover:text-white-400 text-3xl border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-12 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+        >
+          Learn More
+        </button>
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16"></div>
       </div>
     </section>
