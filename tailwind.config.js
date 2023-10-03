@@ -26,6 +26,8 @@ export default {
         "white-400": "rgba(255, 255, 255, 0.80)",
         "gray-5": "#0D0D0D",
         "red-300": "#F23005",
+        "yellow-600": "#F2B705",
+        "pink-5": "#F2055C",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
