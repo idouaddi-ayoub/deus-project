@@ -18,18 +18,20 @@ export const Card = [
   {
     imgURL: pc,
     label: "PC",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    subtext:
+      "Experience gaming without limits on our high-performance gaming computers, where power meets precision.",
   },
   {
     imgURL: controller,
     label: "Console",
     subtext:
-      "Experience worry-free transactions with our secure payment options.",
+      "Elevate your gaming adventures with the PS5, where stunning graphics and lightning-fast load times redefine your gaming experience.",
   },
   {
     imgURL: wheel,
     label: "Simulation",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    subtext:
+      "Get ready to hit the virtual road with our state-of-the-art driving simulation setups, bringing the thrill of racing right to your home.",
   },
 ];
 

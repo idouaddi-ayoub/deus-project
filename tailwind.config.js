@@ -30,7 +30,7 @@ export default {
         "pink-5": "#F2055C",
       },
       boxShadow: {
-        "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
+        "3xl": "0 30px 20px rgba(0, 0, 0, 0.4)",
       },
       backgroundImage: {
         hero: "url('assets/images/AssassinCreed.png)",
