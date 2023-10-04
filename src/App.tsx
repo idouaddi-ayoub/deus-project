@@ -2,8 +2,8 @@ import {
   Games,
   Hero,
   Navbar,
-  Overview,
-  Services,
+  // Overview,
+  Platform,
   SpecialOffer,
   Footer,
 } from "./sections";
@@ -14,14 +14,14 @@ const App = () => (
     <section>
       <Hero />
     </section>
-    <section className="padding">
+    {/* <section className="padding">
       <Overview />
-    </section>
+    </section> */}
     <section className="padding">
       <Games />
     </section>
     <section className="padding-x py-10">
-      <Services />
+      <Platform />
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
       <SpecialOffer />

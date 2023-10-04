@@ -1,10 +1,10 @@
 import {
   facebook,
   instagram,
-  shieldTick,
-  support,
-  truckFast,
   twitter,
+  pc,
+  controller,
+  wheel,
 } from "../assets/icons";
 
 export const navlink = [
@@ -14,21 +14,21 @@ export const navlink = [
   { href: "#special-offer", label: "Special Offer" },
 ];
 
-export const services = [
+export const Card = [
   {
-    imgURL: truckFast,
-    label: "test1",
+    imgURL: pc,
+    label: "PC",
     subtext: "Enjoy seamless shopping with our complimentary shipping service.",
   },
   {
-    imgURL: shieldTick,
-    label: "test2",
+    imgURL: controller,
+    label: "Console",
     subtext:
       "Experience worry-free transactions with our secure payment options.",
   },
   {
-    imgURL: support,
-    label: "test3",
+    imgURL: wheel,
+    label: "Simulation",
     subtext: "Our dedicated team is here to assist you every step of the way.",
   },
 ];
