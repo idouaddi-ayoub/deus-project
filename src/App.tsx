@@ -1,35 +1,25 @@
-import {
-  Games,
-  Hero,
-  Navbar,
-  // Overview,
-  Platform,
-  SpecialOffer,
-  Footer,
-} from "./sections";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const App = () => (
-  <main className="relative">
-    <Navbar />
-    <section>
-      <Hero />
-    </section>
-    {/* <section className="padding">
-      <Overview />
-    </section> */}
-    <section className="padding">
-      <Games />
-    </section>
-    <section className="padding-x py-10">
-      <Platform />
-    </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
-      <SpecialOffer />
-    </section>
-    <section className="bg-black padding-x padding-t pb-8">
-      <Footer />
-    </section>
-  </main>
-);
+import { ClerkProvider } from "@clerk/clerk-react";
+import Layout from "./components/Layout";
+import Home from "./Pages/Home";
+import NoMatch from "./Pages/NoMatch";
+
+const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
+
+const App = () => {
+  return (
+    <ClerkProvider publishableKey={clerkPubKey}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />}></Route>
+            <Route path="*" element={<NoMatch />}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ClerkProvider>
+  );
+};
 
 export default App;

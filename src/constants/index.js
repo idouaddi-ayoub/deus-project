@@ -8,10 +8,10 @@ import {
 } from "../assets/icons";
 
 export const navlink = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#games", label: "Games" },
-  { href: "#special-offer", label: "Special Offer" },
+  { href: "/", label: "Home" },
+  { href: "/aboutus", label: "About Us" },
+  { href: "/games", label: "Games" },
+  { href: "/specialoffer", label: "Special Offer" },
 ];
 
 export const Card = [
@@ -36,9 +36,9 @@ export const Card = [
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  { src: facebook, alt: "facebook logo", link: "/" },
+  { src: twitter, alt: "twitter logo", link: "/" },
+  { src: instagram, alt: "instagram logo", link: "/" },
 ];
 
 export const footerLinks = [
@@ -53,11 +53,11 @@ export const footerLinks = [
   {
     title: "Help",
     links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "About us", link: "/aboutus" },
+      { name: "FAQs", link: "/faq" },
+      { name: "How it works", link: "/howitworks" },
+      { name: "Privacy policy", link: "/privacypolicy" },
+      { name: "Payment policy", link: "/paymentpolicy" },
     ],
   },
   {
