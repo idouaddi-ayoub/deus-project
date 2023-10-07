@@ -17,8 +17,8 @@ const Footer = () => {
             />
           </Link>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+            Failure doesn't mean the game is over,
+            <br /> it means try again with experience.
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (

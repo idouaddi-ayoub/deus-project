@@ -1,7 +1,7 @@
 import {
   facebook,
   instagram,
-  twitter,
+  twitch,
   pc,
   controller,
   wheel,
@@ -36,18 +36,30 @@ export const Card = [
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo", link: "/" },
-  { src: twitter, alt: "twitter logo", link: "/" },
-  { src: instagram, alt: "instagram logo", link: "/" },
+  {
+    src: facebook,
+    alt: "facebook logo",
+    link: "https://www.facebook.com/profile.php?id=100083258262773",
+  },
+  {
+    src: twitch,
+    alt: "twitch logo",
+    link: "https://www.twitch.tv/deusgtv/about",
+  },
+  {
+    src: instagram,
+    alt: "instagram logo",
+    link: "https://www.instagram.com/deusgc/",
+  },
 ];
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Products / Services",
     links: [
-      { name: "Chi7aja", link: "/" },
-      { name: "Age", link: "/" },
-      { name: "Balls", link: "/" },
+      { name: "PC Components", link: "/" },
+      { name: "Membership", link: "/" },
+      { name: "Coming soon", link: "/" },
     ],
   },
   {
@@ -56,8 +68,7 @@ export const footerLinks = [
       { name: "About us", link: "/aboutus" },
       { name: "FAQs", link: "/faq" },
       { name: "How it works", link: "/howitworks" },
-      { name: "Privacy policy", link: "/privacypolicy" },
-      { name: "Payment policy", link: "/paymentpolicy" },
+      { name: "Support", link: "/privacypolicy" },
     ],
   },
   {

@@ -13,7 +13,7 @@ import twitter from "./twitter.svg";
 import pc from "./PCicon.svg";
 import wheel from "./steeringwheel.svg";
 import controller from "./gamecontroller.svg";
-
+import twitch from "./twitch.svg";
 export {
   arrowRight,
   cheveronRight,
@@ -27,4 +27,5 @@ export {
   wheel,
   twitter,
   pc,
+  twitch,
 };
