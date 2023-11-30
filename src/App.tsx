@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import { ClerkProvider } from "@clerk/clerk-react";
 import Layout from "./components/Layout";
 import Home from "./Pages/Home";
