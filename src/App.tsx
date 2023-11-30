@@ -4,6 +4,7 @@ import { ClerkProvider } from "@clerk/clerk-react";
 import Layout from "./components/Layout";
 import Home from "./Pages/Home";
 import NoMatch from "./Pages/NoMatch";
+import Aboutus from "./Pages/Aboutus";
 
 const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
 
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />}></Route>
+            <Route path="/aboutus" element={<Aboutus />}></Route>
             <Route path="*" element={<NoMatch />}></Route>
           </Route>
         </Routes>
