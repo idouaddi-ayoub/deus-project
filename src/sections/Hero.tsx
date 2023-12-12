@@ -11,11 +11,11 @@ const Hero = () => {
     >
       <div className="relative flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 pl-8">
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          <span className="text-white-400 xl:whitespace-nowrap relative pr-10 ">
+          <span className="text-red-300 xl:whitespace-nowrap relative pr-10 ">
             Deus Gaming
           </span>
           <br />
-          <span className="text-red-300 inline-block mt-3">
+          <span className="text-white-400 inline-block mt-3">
             Master the Game
           </span>
         </h1>
