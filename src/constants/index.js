@@ -11,7 +11,7 @@ export const navlink = [
   { href: "/", label: "Home" },
   { href: "/aboutus", label: "About Us" },
   { href: "/games", label: "Games" },
-  { href: "/specialoffer", label: "Special Offer" },
+  { href: "/membership", label: "Membership" },
 ];
 
 export const Card = [

@@ -1,18 +1,18 @@
-import { Background } from "../../assets/images";
+import DeusCrown from "../../assets/images/DeusCrown.png";
 
-const AboutUsHero = () => {
+const Membership = () => {
   return (
     <section
       id="home"
-      className="w-full h-screen flex bg-no-repeat bg-cover bg-fixed flex-col justify-center gap-10"
+      className="w-full h-screen flex bg-no-repeat bg-contain bg-right bg-fixed flex-col justify-center gap-10 bg-black"
       style={{
-        backgroundImage: `url(${Background})`,
+        backgroundImage: `url(${DeusCrown})`,
       }}
     >
       <div className="relative flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 pl-8">
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
           <span className="text-red-300 xl:whitespace-nowrap relative pr-10 ">
-            Who are we
+            Membership
           </span>
         </h1>
         <p className="font-montserrat text-white-400 text-2xl leading-loose mt-10 mb-14 sm:max-w-screen-md font-bold ">
@@ -25,4 +25,4 @@ const AboutUsHero = () => {
   );
 };
 
-export default AboutUsHero;
+export default Membership;

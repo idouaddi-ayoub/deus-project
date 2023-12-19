@@ -27,7 +27,6 @@ const AboutusDetails = () => {
           </h3>
         </div>
       </section>
-      <section></section>
     </>
   );
 };
