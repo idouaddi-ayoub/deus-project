@@ -1,4 +1,4 @@
-import MembershipHero from "../sections/Membership";
+import MembershipHero from "../sections/MembershipSection/Membership";
 
 const Membership = () => {
   return (

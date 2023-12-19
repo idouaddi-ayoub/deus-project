@@ -1,4 +1,4 @@
-import Gamer from "../assets/images/Gamerfist.jpg";
+import Gamer from "../../assets/images/Gamerfist.jpg";
 
 const AboutusDetails2 = () => {
   return (

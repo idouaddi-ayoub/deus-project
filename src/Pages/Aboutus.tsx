@@ -1,7 +1,7 @@
 import AboutUsHero from "../sections/AboutusSection/AboutsUsHero";
-import AboutusDetails1 from "../sections/AboutusDetails1";
-import AboutusDetails2 from "../sections/AboutusDetails2";
-import AboutusDetails3 from "../sections/AboutusDetails3";
+import AboutusDetails1 from "../sections/AboutusSection/AboutusDetails1";
+import AboutusDetails2 from "../sections/AboutusSection//AboutusDetails2";
+import AboutusDetails3 from "../sections/AboutusSection//AboutusDetails3";
 
 const Aboutus = () => {
   return (

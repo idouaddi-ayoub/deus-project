@@ -1,4 +1,4 @@
-import Vision from "../assets/images/Vision.jpg";
+import Vision from "../../assets/images/Vision.jpg";
 
 const AboutusDetails2 = () => {
   return (

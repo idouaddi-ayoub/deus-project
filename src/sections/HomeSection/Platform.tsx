@@ -1,5 +1,5 @@
-import { Card } from "../constants";
-import PlatformCard from "../components/PlatformCard";
+import { Card } from "../../constants";
+import PlatformCard from "../../components/PlatformCard";
 
 const Platform = () => {
   return (

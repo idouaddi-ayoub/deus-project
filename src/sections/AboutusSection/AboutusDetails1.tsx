@@ -1,4 +1,4 @@
-import DeusDetails from "../assets/images/DeusDetails.jpeg";
+import DeusDetails from "../../assets/images/DeusDetails.jpeg";
 
 const AboutusDetails = () => {
   return (

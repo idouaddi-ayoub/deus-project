@@ -1,4 +1,4 @@
-import { AssassinCreedDark } from "../assets/images";
+import { AssassinCreedDark } from "../../assets/images";
 
 const Hero = () => {
   return (
