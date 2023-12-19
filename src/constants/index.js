@@ -57,9 +57,9 @@ export const footerLinks = [
   {
     title: "Products / Services",
     links: [
-      { name: "PC Components", link: "/" },
-      { name: "Membership", link: "/" },
-      { name: "Coming soon", link: "/" },
+      { name: "PC Components", link: "/pccomponents" },
+      { name: "Membership", link: "/membership" },
+      // { name: "Coming soon", link: "/" },
     ],
   },
   {

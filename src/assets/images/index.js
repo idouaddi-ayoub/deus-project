@@ -6,6 +6,7 @@ import Sova from "./Sova.png";
 import DEUSbg from "./DEUSbg.png";
 import Background from "./Bg.jpg";
 import DeusDetails from "./DeusDetails.jpeg";
+import DeusCrown from "./DeusCrown.png";
 
 export { AssassinCreed };
 export { AssassinCreedDark };
@@ -15,3 +16,4 @@ export { Sova };
 export { DEUSbg };
 export { Background };
 export { DeusDetails };
+export { DeusCrown };

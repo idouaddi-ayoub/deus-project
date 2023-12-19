@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Home from "./Pages/Home";
 import NoMatch from "./Pages/NoMatch";
 import Aboutus from "./Pages/Aboutus";
+import Membership from "./Pages/Membership";
 
 const clerkPubKey = import.meta.env.VITE_REACT_APP_CLERK_PUBLISHABLE_KEY;
 
@@ -16,6 +17,7 @@ const App = () => {
             <Route index element={<Home />}></Route>
             <Route path="/aboutus" element={<Aboutus />}></Route>
             <Route path="*" element={<NoMatch />}></Route>
+            <Route path="/membership" element={<Membership />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
