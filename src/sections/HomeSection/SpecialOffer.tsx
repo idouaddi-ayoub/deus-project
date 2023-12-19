@@ -1,4 +1,4 @@
-import { Sova } from "../assets/images";
+import { Sova } from "../../assets/images";
 
 const SpecialOffer = () => {
   return (
