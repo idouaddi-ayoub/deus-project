@@ -4,7 +4,7 @@ import MembershipDetails from "../sections/MembershipSection/MembershipDetails";
 
 const Membership = () => {
   return (
-    <main className=" space-y-16 bg-black">
+    <main className=" space-y-16">
       <MembershipHero />
       <MembershipDetails />
       {/* <MembershipDetails2 /> */}
