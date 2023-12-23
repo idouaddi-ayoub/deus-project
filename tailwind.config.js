@@ -10,7 +10,7 @@ export default {
       xl: ["20px", "24.38px"],
       "2xl": ["24px", "29.26px"],
       "3xl": ["28px", "50px"],
-      "4xl": ["48px", "58px"],
+      "4xl": ["38px", "54px"],
       "8xl": ["96px", "106px"],
     },
     extend: {
@@ -26,8 +26,11 @@ export default {
         "white-400": "rgba(255, 255, 255, 0.80)",
         "gray-5": "#0D0D0D",
         "red-300": "#F23005",
+        "red-500": "rgba(242, 48, 5, 0.80)",
+        "white-700": "rgba(255, 255, 255, 0.10)",
         "yellow-600": "#F2B705",
         "pink-5": "#F2055C",
+        "yellow-200": "#F2E205",
       },
       boxShadow: {
         "3xl": "0 30px 20px rgba(0, 0, 0, 0.4)",

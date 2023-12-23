@@ -44,7 +44,7 @@ export const socialMedia = [
   {
     src: twitch,
     alt: "twitch logo",
-    link: "https://www.twitch.tv/deusgtv/about",
+    link: "https://www.twitch.tv/48_tv",
   },
   {
     src: instagram,
@@ -57,7 +57,7 @@ export const footerLinks = [
   {
     title: "Products / Services",
     links: [
-      { name: "PC Components", link: "/pccomponents" },
+      // { name: "PC Components", link: "/pccomponents" },
       { name: "Membership", link: "/membership" },
       // { name: "Coming soon", link: "/" },
     ],
@@ -66,9 +66,9 @@ export const footerLinks = [
     title: "Help",
     links: [
       { name: "About us", link: "/aboutus" },
-      { name: "FAQs", link: "/faq" },
-      { name: "How it works", link: "/howitworks" },
-      { name: "Support", link: "/privacypolicy" },
+      // { name: "FAQs", link: "/faq" },
+      // { name: "How it works", link: "/howitworks" },
+      // { name: "Support", link: "/privacypolicy" },
     ],
   },
   {

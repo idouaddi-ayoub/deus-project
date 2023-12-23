@@ -28,7 +28,7 @@ const Hero = () => {
           className="text-white text-3xl border border-gray-800 hover:bg-gray-900 bg-red-300 
           focus:ring-4 focus:outline-none focus:ring-gray-300 
           font-medium font-montserrat rounded-lg px-12 py-2.5 text-center mr-2 mb-2
-          dark:border-gray-600  dark:hover:bg-red-300 dark:hover:bg-opacity-50 dark:focus:ring-red-900"
+          dark:border-gray-600  dark:hover:bg-red-300 dark:hover:bg-opacity-50 dark:focus:ring-white-700"
         >
           Learn More
         </button>
