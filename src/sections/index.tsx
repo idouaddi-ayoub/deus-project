@@ -1,4 +1,4 @@
-import Games from "./Games";
+import Games from "./GameSection/GameHero";
 import Hero from "./HomeSection/Hero";
 import Navbar from "../components/Navbar";
 import Overview from "./HomeSection/Overview";

@@ -7,6 +7,8 @@ import {
   wheel,
 } from "../assets/icons";
 
+import { AssassinCreed, jinx, DEUS, Sova } from "../assets/images";
+
 export const navlink = [
   { href: "/", label: "Home" },
   { href: "/aboutus", label: "About Us" },
@@ -80,5 +82,20 @@ export const footerLinks = [
       },
       { name: "+212 642426298", link: "tel:+212642426298" },
     ],
+  },
+];
+
+export const gameData = [
+  {
+    id: 1,
+    img: Sova,
+  },
+  {
+    id: 2,
+    img: jinx,
+  },
+  {
+    id: 3,
+    img: DEUS,
   },
 ];
