@@ -88,14 +88,65 @@ export const footerLinks = [
 export const gameData = [
   {
     id: 1,
-    img: Sova,
+    img: DEUS,
+    name: "DEUS",
   },
   {
     id: 2,
-    img: jinx,
+    img: DEUS,
+    name: "DEUS",
   },
   {
-    id: 3,
+    id: 4,
     img: DEUS,
+    name: "DEUS",
+  },
+  {
+    id: 5,
+    img: DEUS,
+    name: "DEUS",
+  },
+  {
+    id: 6,
+    img: DEUS,
+    name: "DEUS",
+  },
+  {
+    id: 7,
+    img: DEUS,
+    name: "DEUS",
+  },
+  {
+    id: 8,
+    img: DEUS,
+    name: "DEUS",
+  },
+  {
+    id: 9,
+    img: DEUS,
+    name: "DEUS",
+  },
+  {
+    id: 10,
+    img: DEUS,
+    name: "DEUS",
   },
 ];
+
+export const slideLeft = () => {
+  var slider = document.getElementById("slider");
+  slider.scrollLeft = slider.scrollLeft - 500;
+};
+
+export const slideRight = () => {
+  var slider = document.getElementById("slider");
+  slider.scrollLeft = slider.scrollLeft + 500;
+};
+
+const SmoothHorizontalScroll = ({ children }) => {
+  const ref = useRef();
+
+  const bind = useDrag(({ movement: [mx] }) => {
+    ref.current.scrollLeft -= mx;
+  });
+};
