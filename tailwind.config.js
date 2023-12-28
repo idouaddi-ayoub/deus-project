@@ -42,6 +42,21 @@ export default {
       screens: {
         wide: "1440px",
       },
+      width: {
+        "game-img-width": "85%",
+      },
+      minWidth: {
+        "game-width": "33rem",
+      },
+      height: {
+        "game-img-height": "85%",
+      },
+      minHeight: {
+        "game-height": "40rem",
+      },
+      borderRadius: {
+        "game-img-border": "2rem",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],

@@ -7,7 +7,20 @@ import {
   wheel,
 } from "../assets/icons";
 
+//Images
 import { AssassinCreed, jinx, DEUS, Sova } from "../assets/images";
+//Games
+import {
+  ApexLegends,
+  CounterStrike2,
+  StreetFighter6,
+  RocketLeague,
+  FC24,
+  Fortnite,
+  GodOfWar,
+  LeagueOfLegends,
+  Valorant,
+} from "../assets/images";
 
 export const navlink = [
   { href: "/", label: "Home" },
@@ -88,43 +101,48 @@ export const footerLinks = [
 export const gameData = [
   {
     id: 1,
-    img: DEUS,
-    name: "DEUS",
+    img: ApexLegends,
+    name: "ApexLegends",
   },
   {
     id: 2,
-    img: DEUS,
-    name: "DEUS",
+    img: CounterStrike2,
+    name: "CounterStrike2",
+  },
+  {
+    id: 3,
+    img: StreetFighter6,
+    name: "StreetFighter6",
   },
   {
     id: 4,
-    img: DEUS,
-    name: "DEUS",
+    img: RocketLeague,
+    name: "RocketLeague",
   },
   {
     id: 5,
-    img: DEUS,
-    name: "DEUS",
+    img: FC24,
+    name: "FC24",
   },
   {
     id: 6,
-    img: DEUS,
-    name: "DEUS",
+    img: Fortnite,
+    name: "Fortnite",
   },
   {
     id: 7,
-    img: DEUS,
-    name: "DEUS",
+    img: GodOfWar,
+    name: "GodOfWar",
   },
   {
     id: 8,
-    img: DEUS,
-    name: "DEUS",
+    img: LeagueOfLegends,
+    name: "LeagueOfLegends",
   },
   {
     id: 9,
-    img: DEUS,
-    name: "DEUS",
+    img: Valorant,
+    name: "Valorant",
   },
   {
     id: 10,
