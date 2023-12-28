@@ -23,7 +23,7 @@ const HorizontalScroll: React.FC<HorizontalScrollProps> = ({ children }) => {
       if (!isDragging) return;
       e.preventDefault();
       const x = e.pageX - container!.offsetLeft;
-      const walk = (x - startX) * 2; // Adjust scrolling speed if needed
+      const walk = (x - startX) * 1; // Adjust scrolling speed if needed
       container!.scrollLeft = scrollLeft - walk;
     };
 

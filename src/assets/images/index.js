@@ -1,10 +1,10 @@
 import DEUS from "./DEUS.png";
 import jinx from "./Jinx.png";
-import AssassinCreed from "./AssassinCreed.png";
-import AssassinCreedDark from "./AssassinCreeddark.png";
+import AssassinCreed from "./backgrounds/AssassinCreed.png";
+import AssassinCreedDark from "./backgrounds/AssassinCreeddark.png";
 import Sova from "./Sova.png";
-import DEUSbg from "./DEUSbg.png";
-import Background from "./Bg.jpg";
+import DEUSbg from "./backgrounds/DEUSbg.png";
+import Background from "./backgrounds/Bg.jpg";
 import DeusDetails from "./DeusDetails.jpeg";
 import DeusCrown from "./DeusCrown.png";
 
