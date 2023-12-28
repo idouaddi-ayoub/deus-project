@@ -11,7 +11,7 @@ const Caroussel = () => {
   }, []);
 
   return (
-    <div className="Carou">
+    <div className="Carou py-10">
       <motion.div
         ref={carousel}
         className="cursor-grab overflow-hidden"
@@ -20,7 +20,7 @@ const Caroussel = () => {
         <motion.div
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
-          className="flex"
+          className="flex pl-16"
         >
           {gameData.map((game) => {
             return (
@@ -28,6 +28,8 @@ const Caroussel = () => {
                 className="min-w-game-width min-h-game-height"
                 key={game.id}
               >
+                {" "}
+                {/*Change images resolution (all images needs to be the same res) */}
                 <img
                   className="h-game-img-height w-game-img-width rounded-game-img-border pointer-events-none"
                   src={game.img}

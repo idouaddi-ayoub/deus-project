@@ -146,7 +146,7 @@ export const gameData = [
   },
   {
     id: 10,
-    img: DEUS,
+    img: ApexLegends,
     name: "DEUS",
   },
 ];
