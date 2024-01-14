@@ -1,4 +1,5 @@
 import { Sova } from "../../assets/images";
+import { Link } from "react-router-dom";
 
 const SpecialOffer = () => {
   return (
@@ -17,12 +18,19 @@ const SpecialOffer = () => {
           to incredible savings, we provide unparalleled value that sets us
           apart.
         </p>
-        <p className="mt-6 info-text mr-14">
-          Explore a world of possibilities crafted to fulfill your gaming
-          desires, exceeding the loftiest expectations. Your membership with us
-          promises nothing short of an exceptional gaming adventure.
-        </p>
-        <div className="mt-11 flex flex-wrap gap-4"></div>
+        <div className="mt-6 flex flex-wrap gap-4">
+          <Link to="/membership">
+            <button
+              type="button"
+              className="text-white text-3xl border border-gray-800 hover:bg-gray-900 bg-red-300 
+        focus:ring-4 focus:outline-none focus:ring-gray-300 
+        font-medium font-montserrat rounded-lg px-12 py-2.5 text-center mr-2 mb-2
+        dark:border-gray-600  dark:hover:bg-red-300 dark:hover:bg-opacity-50 dark:focus:ring-white-700"
+            >
+              More Details
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );

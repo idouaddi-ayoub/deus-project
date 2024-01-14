@@ -4,7 +4,7 @@ import AssassinCreedDark from "./backgrounds/AssassinCreeddark.png";
 import AssassinCreed from "./backgrounds/AssassinCreed.png";
 import DEUSbg from "./backgrounds/DEUSbg.png";
 import Background from "./backgrounds/Bg.jpg";
-
+import GamesBg from "./backgrounds/17976.jpg";
 //Images
 import DEUS from "./DEUS.png";
 import jinx from "./Jinx.png";
@@ -29,6 +29,7 @@ export { AssassinCreed };
 export { AssassinCreedDark };
 export { Background };
 export { DEUSbg };
+export { GamesBg };
 
 //Images
 export { jinx };

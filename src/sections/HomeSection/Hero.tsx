@@ -1,9 +1,9 @@
 import { AssassinCreedDark } from "../../assets/images";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <section
-      id="home"
       className="w-full h-screen flex bg-no-repeat bg-cover bg-fixed flex-col justify-center gap-10"
       style={{
         backgroundImage: `url(${AssassinCreedDark})`,
@@ -23,15 +23,17 @@ const Hero = () => {
           Welcome to Deus Gaming Center Association based in Agadir, your haven
           for gathering gaming enthusiasts !
         </p>
-        <button
-          type="button"
-          className="text-white text-3xl border border-gray-800 hover:bg-gray-900 bg-red-300 
+        <Link to="/aboutus">
+          <button
+            type="button"
+            className="text-white text-3xl border border-gray-800 hover:bg-gray-900 bg-red-300 
           focus:ring-4 focus:outline-none focus:ring-gray-300 
           font-medium font-montserrat rounded-lg px-12 py-2.5 text-center mr-2 mb-2
           dark:border-gray-600  dark:hover:bg-red-300 dark:hover:bg-opacity-50 dark:focus:ring-white-700"
-        >
-          Learn More
-        </button>
+          >
+            Learn More
+          </button>
+        </Link>
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16"></div>
       </div>
     </section>

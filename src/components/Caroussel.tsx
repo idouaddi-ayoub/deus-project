@@ -28,7 +28,7 @@ const Caroussel = () => {
                 className="min-w-game-width min-h-game-height"
                 key={game.id}
               >
-                {" "}
+                {""}
                 {/*Change images resolution (all images needs to be the same res) */}
                 <img
                   className="h-game-img-height w-game-img-width rounded-game-img-border pointer-events-none"
