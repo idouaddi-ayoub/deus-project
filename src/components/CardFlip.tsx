@@ -23,10 +23,13 @@ export const CardFlip = () => {
     }
   }
   return (
-    <div className="flex items-center justify-center bg-black h-[800px] cursor-pointer">
-      <div className="flip-card rounded-md" onClick={handleFlip}>
+    <div className="flex items-center justify-center bg-black h-[800px]">
+      <div
+        className="flip-card rounded-md cursor-pointer m-5"
+        onClick={handleFlip}
+      >
         <motion.div
-          className="flip-card-inner min-w-game-s-width min-h-game-s-height m-5"
+          className="flip-card-inner min-w-game-s-width min-h-game-s-height"
           initial={false}
           animate={{ rotateY: isFlipped ? 180 : 360 }}
           transition={{ duration: 0.6, animationDirection: "normal" }}
@@ -36,22 +39,25 @@ export const CardFlip = () => {
             className="flip-card-front w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
             style={{ backgroundImage: `url(${CounterStrike2})` }}
           >
-            <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
-            <p>Greatest FPS of all time cap</p>
+            {/* <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
+            <p>Greatest FPS of all time cap</p> */}
           </div>
 
           <div
             className="flip-card-back w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
             style={{ backgroundImage: `url(${StreetFighter6})` }}
           >
-            <h1 className="text-2xl font-bold/">Street Fighter 6</h1>
-            <p>Best fighting game</p>
+            {/* <h1 className="text-2xl font-bold/">Street Fighter 6</h1>
+            <p>Best fighting game</p> */}
           </div>
         </motion.div>
       </div>
-      <div className="flip-card rounded-md" onClick={handleFlip2}>
+      <div
+        className="flip-card rounded-md cursor-pointer m-5"
+        onClick={handleFlip2}
+      >
         <motion.div
-          className="flip-card-inner min-w-game-s-width min-h-game-s-height m-5"
+          className="flip-card-inner min-w-game-s-width min-h-game-s-height"
           initial={false}
           animate={{ rotateY: isFlipped2 ? 180 : 360 }}
           transition={{ duration: 0.6, animationDirection: "normal" }}
@@ -61,16 +67,16 @@ export const CardFlip = () => {
             className="flip-card-front w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
             style={{ backgroundImage: `url(${CounterStrike2})` }}
           >
-            <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
-            <p>Greatest FPS of all time cap</p>
+            {/* <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
+            <p>Greatest FPS of all time cap</p> */}
           </div>
 
           <div
             className="flip-card-back w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
             style={{ backgroundImage: `url(${StreetFighter6})` }}
           >
-            <h1 className="text-2xl font-bold/">Street Fighter 6</h1>
-            <p>Best fighting game</p>
+            {/* <h1 className="text-2xl font-bold/">Street Fighter 6</h1>
+            <p>Best fighting game</p> */}
           </div>
         </motion.div>
       </div>
