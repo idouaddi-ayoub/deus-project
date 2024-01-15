@@ -47,12 +47,14 @@ export default {
       },
       minWidth: {
         "game-width": "33rem",
+        "game-s-width": "25rem",
       },
       height: {
         "game-img-height": "85%",
       },
       minHeight: {
         "game-height": "40rem",
+        "game-s-height": "32rem",
       },
       borderRadius: {
         "game-img-border": "2rem",
