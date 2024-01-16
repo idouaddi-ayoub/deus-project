@@ -22,7 +22,7 @@ const AboutusDetails2 = () => {
             <img
               src={Gamer}
               alt="logo"
-              className="justify-center"
+              className="justify-center rounded-game-img-border"
               width={1080}
               height={1080}
             />

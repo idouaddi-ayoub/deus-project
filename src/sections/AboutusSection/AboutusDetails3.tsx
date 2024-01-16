@@ -9,7 +9,7 @@ const AboutusDetails2 = () => {
             <img
               src={Vision}
               alt="logo"
-              className="justify-center"
+              className="justify-center rounded-game-img-border"
               width={1080}
               height={1080}
             />

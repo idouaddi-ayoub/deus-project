@@ -16,6 +16,7 @@ const Membership = () => {
           </span>
         </h1>
         <p className="font-montserrat text-white-400 text-2xl leading-loose mt-10 mb-14 sm:max-w-screen-md font-bold ">
+          {/* Make it short */}
           For the ultimate gaming adventure, elevate your experience with Deus
           Membership! Unlock a world of unlimited access to cutting-edge gaming
           setups, exclusive events and more. Deus Membership is your passport to

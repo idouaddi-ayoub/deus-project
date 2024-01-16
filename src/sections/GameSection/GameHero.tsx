@@ -6,6 +6,7 @@ const GameHero = () => {
       className="w-full h-screen flex bg-no-repeat bg-cover bg-fixed flex-col justify-center gap-10"
       style={{
         backgroundImage: `url(${GamesBg})`,
+        // Pictures needs to be the same size
       }}
     >
       <div className="relative flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 pl-8">
