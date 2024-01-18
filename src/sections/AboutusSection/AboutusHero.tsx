@@ -3,7 +3,7 @@ import { Background } from "../../assets/images";
 const AboutusHero = () => {
   return (
     <section
-      id="home"
+      id="about"
       className="w-full h-screen flex bg-no-repeat bg-cover bg-fixed flex-col justify-center gap-10"
       style={{
         backgroundImage: `url(${Background})`,

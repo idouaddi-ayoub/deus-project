@@ -1,5 +1,5 @@
 import { Sova } from "../../assets/images";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const SpecialOffer = () => {
   return (
@@ -19,7 +19,7 @@ const SpecialOffer = () => {
           apart.
         </p>
         <div className="mt-6 flex flex-wrap gap-4">
-          <Link to="/membership">
+          <HashLink to="/membership#membership">
             <button
               type="button"
               className="text-white text-3xl border border-gray-800 hover:bg-gray-900 bg-red-300 
@@ -29,7 +29,7 @@ const SpecialOffer = () => {
             >
               More Details
             </button>
-          </Link>
+          </HashLink>
         </div>
       </div>
     </section>

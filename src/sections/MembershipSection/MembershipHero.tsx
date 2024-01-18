@@ -3,7 +3,7 @@ import DeusCrown from "../../assets/images/DeusCrown.png";
 const Membership = () => {
   return (
     <section
-      id="home"
+      id="membership"
       className="w-full h-screen flex bg-no-repeat bg-contain bg-right bg-fixed flex-col justify-center gap-10 bg-black"
       style={{
         backgroundImage: `url(${DeusCrown})`,

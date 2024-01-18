@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 import { copyrightSign } from "../assets/icons";
 import { DEUS } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
@@ -8,14 +9,14 @@ const Footer = () => {
     <footer className="bg-black w-full p-10">
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <Link to="/">
+          <HashLink to="/#home">
             <img
               src={DEUS}
               alt="logo"
               width={100}
-              className="m-0 justify-center "
+              className="m-0 justify-center"
             />
-          </Link>
+          </HashLink>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
             Failure doesn't mean the game is over,
             <br /> it means try again with experience.
@@ -46,7 +47,7 @@ const Footer = () => {
                     className="mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray"
                     key={link.name}
                   >
-                    <Link to={link.link}>{link.name}</Link>
+                    <HashLink to={link.link}>{link.name}</HashLink>
                   </li>
                 ))}
               </ul>
