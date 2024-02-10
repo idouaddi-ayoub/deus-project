@@ -4,8 +4,8 @@ import { HashLink } from "react-router-hash-link";
 const SpecialOffer = () => {
   return (
     <section className="flex justify-between items-center max-xl:flex-col-reverse">
-      <div className="flex-1 flex justify-center relative object-contain">
-        <img src={Sova} alt="Shoe Promotion" width={600} />
+      <div className="flex-1 flex justify-center relative object-contain select-none">
+        <img src={Sova} alt="Shoe Promotion" width={600} draggable="false" />
       </div>
       <div className="flex flex-1 flex-col">
         <h2 className="text-4xl font-palanquin font-bold">

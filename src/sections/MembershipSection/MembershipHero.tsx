@@ -5,9 +5,9 @@ const Membership = () => {
     <section
       id="membership"
       className="w-full h-screen flex bg-no-repeat bg-contain bg-right bg-fixed flex-col justify-center gap-10 bg-black"
-      style={{
-        backgroundImage: `url(${DeusCrown})`,
-      }}
+      // style={{
+      //   backgroundImage: `url(${DeusCrown})`,
+      // }}
     >
       <div className="relative flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 pl-8">
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">

@@ -9,9 +9,10 @@ const AboutusDetails2 = () => {
             <img
               src={Vision}
               alt="logo"
-              className="justify-center rounded-game-img-border"
+              className="justify-center rounded-game-img-border select-none"
               width={1080}
               height={1080}
+              draggable="false"
             />
           </h3>
         </div>

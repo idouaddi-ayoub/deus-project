@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { CounterStrike2 } from "../assets/images";
 import { StreetFighter6 } from "../assets/images";
+import { DEUS } from "../assets/images";
 
 export const CardFlip = () => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -43,12 +44,10 @@ export const CardFlip = () => {
           transition={{ duration: 0.5, animationDirection: "normal" }}
           onAnimationComplete={() => setIsAnimated(false)}
         >
-          <div
-            className="flip-card-front w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
-            style={{ backgroundImage: `url(${CounterStrike2})` }}
-          >
-            {/* <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
-            <p>Greatest FPS of all time cap</p> */}
+          <div className="flip-card-front w-[100%] h-[100%] rounded-game-img-border bg-cover border-[1px] text-white p-4 bg-yellow-2">
+            <div className="flex justify-center items-center h-full select-none">
+              <img src={DEUS} alt="" width={175} draggable="false" />
+            </div>
           </div>
 
           <div
@@ -71,12 +70,10 @@ export const CardFlip = () => {
           transition={{ duration: 0.5, animationDirection: "normal" }}
           onAnimationComplete={() => setIsAnimated2(false)}
         >
-          <div
-            className="flip-card-front w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
-            style={{ backgroundImage: `url(${CounterStrike2})` }}
-          >
-            {/* <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
-            <p>Greatest FPS of all time cap</p> */}
+          <div className="flip-card-front w-[100%] h-[100%] rounded-game-img-border bg-cover border-[1px] text-white p-4 bg-orange-6">
+            <div className="flex justify-center items-center h-full select-none">
+              <img src={DEUS} alt="" width={175} draggable="false" />
+            </div>
           </div>
 
           <div
@@ -99,12 +96,10 @@ export const CardFlip = () => {
           transition={{ duration: 0.5, animationDirection: "normal" }}
           onAnimationComplete={() => setIsAnimated3(false)}
         >
-          <div
-            className="flip-card-front w-[100%] h-[100%] rounded-game-img-border  bg-cover border-[1px] text-white p-4"
-            style={{ backgroundImage: `url(${CounterStrike2})` }}
-          >
-            {/* <h1 className="text-2xl font-bold/">Counter-Strike 2</h1>
-            <p>Greatest FPS of all time cap</p> */}
+          <div className="flip-card-front w-[100%] h-[100%] rounded-game-img-border bg-cover border-[1px] text-white p-4 bg-red-300">
+            <div className="flex justify-center items-center h-full">
+              <img src={DEUS} alt="" width={175} draggable="false" />
+            </div>
           </div>
 
           <div
